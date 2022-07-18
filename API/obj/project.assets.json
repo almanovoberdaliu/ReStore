@@ -5949,11 +5949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\ReStore-app.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\ReStore-app.csproj",
       "projectName": "ReStore-app",
-      "projectPath": "c:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\ReStore-app.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\ReStore-app.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5967,6 +5967,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

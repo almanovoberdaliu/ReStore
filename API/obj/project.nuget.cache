@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vX/oBcaMGb+da1aB483YJvSi+ANQWLOTBYQRa57YxQEHw5zzROzduYECX0lGQDAr72OcHI9hwhGnQBN1o9/lVQ==",
+  "dgSpecHash": "lVmqyDxn1Rmp5OXOtOCiMURYTgyr6YrViATW/1mJVRHj3X5L+Var5EXyzUI2Ffe7en/RhpUJs2x70xAjfwdG+A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\ReStore-app.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\ReStore\\ReStore\\API\\ReStore-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
