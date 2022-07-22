@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReStore_app.Data;
 using ReStore_app.Entitites;
+using static ReStore_app.Controllers.BaseApiController;
 
 namespace ReStore_app.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductController : ControllerBase
+
+    public class ProductController : BaseeApiController
     {
         private readonly StoreContext _context;
         public ProductController(StoreContext context)
@@ -32,8 +32,8 @@ namespace ReStore_app.Controllers
         {
             var product = await _context.Products.FindAsync(id);
             if(product == null)
-                BadRequest("Product not found");
-            return Ok(product);
+               return NotFound();
+            return product;
         }
 
         [HttpPost("Add Product")]

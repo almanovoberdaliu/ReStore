@@ -9,7 +9,7 @@ interface Props {
 
 const midLinks = [
     { title: 'catalog', path: '/catalog' },
-    { title: 'about', path: '/aboutus' },
+    { title: 'aboutus', path: '/aboutus' },
     { title: 'contact', path: '/contact' },
 ]
 const rightLinks = [
