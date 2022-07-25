@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import BasketPage from '../../features/basket/BasketPage';
 
 
 
@@ -48,6 +49,7 @@ function App() {
           <Route path='/catalog/:id' element={<ProductDetails />} />
           <Route path='/aboutus' element={<AboutPage />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/basket' element={<BasketPage/>}/>
         </Routes>
       </Container>
     </ThemeProvider>

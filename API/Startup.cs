@@ -51,7 +51,8 @@ namespace ReStore_app
             app.UseRouting();
             app.UseCors(opt => 
             {
-                opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+                // allow credentials na lejon me i perdor cookies ne qfaredo domene
+                opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
 
             });
 
