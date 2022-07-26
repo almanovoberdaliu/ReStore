@@ -20,6 +20,7 @@ import { UseStoreContext } from '../../context/StoreContext';
 import { getCookie } from '../util/util';
 import agent from '../api/agent';
 import LoadingComponent from './LoadingComponent';
+import CheckOutPage from '../../features/checkout/CheckOutPage';
 
 
 
@@ -70,7 +71,9 @@ function App() {
           <Route path='/catalog/:id' element={<ProductDetails />} />
           <Route path='/aboutus' element={<AboutPage />} />
           <Route path='/contact' element={<ContactPage />} />
-          <Route path='/basket' element={<BasketPage/>}/>
+          <Route path='/basket' element={<BasketPage/>}/>          
+          <Route path='/checkout' element={<CheckOutPage/>}/>
+
         </Routes>
       </Container>
     </ThemeProvider>
